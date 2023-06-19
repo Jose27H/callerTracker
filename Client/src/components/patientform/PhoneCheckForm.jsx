@@ -38,7 +38,8 @@ const Form = () => {
   };
 
   const redirectMe = (event) => {
-    sessionStorage.setItem("patientNumber", "2899290055");
+    sessionStorage.setItem("patientNumber", number);
+    window.location.href = "/services";
   };
 
   return (
