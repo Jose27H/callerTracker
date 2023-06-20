@@ -72,7 +72,7 @@ const Form = () => {
 
   const days = Array.from({ length: 31 }, (_, index) => index + 1);
 
-  const years = Array.from({ length: 83 }, (_, index) => 1940 + index); // Generate 83 years from 1940 to 2023
+  const years = Array.from({ length: 103 }, (_, index) => 1920 + index); // Generate 83 years from 1940 to 2023
 
   return (
     <form
